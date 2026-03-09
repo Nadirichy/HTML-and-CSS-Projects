@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic HTML 2</title>
+</head>
+<body>
+
+    <p id="sample_text">This text will change when you click the button.</p>
+
+    <button onclick="changeText()">Click Me!</button>
+
+    <script>
+        function changeText() {
+            document.getElementById("sample_text").innerHTML = "The text has been changed!";
+        }
+    </script>
+
+</body>
+</html>
